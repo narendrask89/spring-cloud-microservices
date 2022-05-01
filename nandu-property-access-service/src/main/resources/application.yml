@@ -1,0 +1,11 @@
+spring:
+   application:
+      name: nandu-property-access-service
+   config:
+      import: optional:configserver:http://localhost:8888
+   profiles:
+      active: dev
+      
+      
+server:
+   port: ${port:8100}

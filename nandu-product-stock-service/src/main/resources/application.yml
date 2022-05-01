@@ -1,0 +1,7 @@
+spring:
+   application:
+      name: nandu-product-stock-service
+      
+ 
+server:
+   port: ${port:8800}
